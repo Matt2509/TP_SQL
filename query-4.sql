@@ -1,0 +1,1 @@
+SELECT Assessment.name_assessment, AVG(Grade.`grade`) FROM  Assessment, Grade WHERE Assessment.id=Grade.`id_assessment`GROUP BY Assessment.name_assessment;

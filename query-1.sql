@@ -1,0 +1,1 @@
+SELECT count(*) AS nombre_eleves FROM Student;

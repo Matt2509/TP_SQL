@@ -1,0 +1,1 @@
+SELECT * FROM Assessment WHERE `date_assessment` BETWEEN '2018-01-01' AND '2018-06-18'; 
