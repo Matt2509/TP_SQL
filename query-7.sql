@@ -1,0 +1,1 @@
+SELECT date_absence, count(id_student) AS Nbr_student FROM Absence GROUP BY date_absence;
